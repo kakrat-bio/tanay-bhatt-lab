@@ -256,3 +256,5 @@ img{max-width:100%;height:auto}
 
 /* These sources are already cropped to centre the face in a 4:3 frame. */
 .profile-photo .photo-jeel-dasondi,.profile-photo .photo-harshini-suresha,.profile-photo .photo-shravani,.profile-photo .photo-amrutha-sharma,.profile-photo .photo-zidhan-subair{object-position:center}
+
+.pi-photo{display:block;width:240px;max-width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:3px;margin-bottom:24px}
