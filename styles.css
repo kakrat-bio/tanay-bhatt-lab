@@ -259,3 +259,6 @@ img{max-width:100%;height:auto}
 .profile-photo .photo-jeel-dasondi,.profile-photo .photo-harshini-suresha,.profile-photo .photo-shravani,.profile-photo .photo-amrutha-sharma,.profile-photo .photo-zidhan-subair{object-position:center}
 
 .pi-photo{display:block;width:240px;max-width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:3px;margin-bottom:24px}
+
+.institution-link{color:#254d70;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.institution-link:hover{color:var(--rust)}
