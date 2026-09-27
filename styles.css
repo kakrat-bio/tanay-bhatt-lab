@@ -136,3 +136,123 @@ blockquote{font:500 clamp(28px,3.5vw,45px)/1.2 Georgia,serif;letter-spacing:-.02
 @media (prefers-reduced-motion: reduce){
   html{scroll-behavior:auto}
 }
+
+/* Shared styles for the research, people, publications and about pages. */
+[hidden]{display:none!important}
+img{max-width:100%;height:auto}
+.site-nav a[aria-current="page"]{color:var(--ink);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:7px}
+.hero-context{max-width:520px;margin:32px 0 0;padding-left:16px;border-left:2px solid var(--line);font-size:14px;line-height:1.7;color:var(--muted)}
+.page-intro{padding:72px 0 56px}
+.page-intro h1{font:500 clamp(40px,4.8vw,66px)/1.08 Georgia,serif;letter-spacing:-.035em;margin:0;max-width:960px;text-wrap:balance}
+.page-lede{font-size:19px;line-height:1.7;color:var(--muted);max-width:740px;margin:26px 0 0}
+.section-links{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:32px}
+.section-links a{display:inline-flex;align-items:center;min-height:44px;border-bottom:1px solid var(--line);font-size:13px;color:var(--blue)}
+.section-links a:hover{border-color:var(--rust);color:var(--rust)}
+.theme-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:20px}
+.theme-card{grid-column:span 2;background:var(--white);border:1px solid var(--line);padding:28px;display:flex;flex-direction:column}
+.theme-card:nth-last-child(-n+2){grid-column:span 3}
+.theme-card h3{font:500 27px/1.18 Georgia,serif;margin:28px 0 16px}
+.theme-card p{margin:0;color:var(--muted);font-size:15px}
+.theme-card .card-link{display:block;padding-top:24px;margin-top:auto;font-size:12px;font-weight:600;color:var(--blue)}
+.theme-card:hover{border-color:var(--blue)}
+.theme-card:hover .card-link{text-decoration:underline;text-underline-offset:4px}
+.group-preview{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.group-preview h2,.about-preview h2,.closing-note h2{font:500 clamp(34px,3.5vw,48px)/1.12 Georgia,serif;letter-spacing:-.03em;margin:0 0 24px}
+.group-preview .text-link{margin-top:24px}
+.portrait-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.portrait-strip img{width:100%;height:auto;aspect-ratio:5/7;object-fit:cover;border-radius:3px}
+.portrait-strip img:nth-child(2){margin-top:32px}
+.light-link{margin-top:24px;color:white}
+.light-link span{color:#d88b70}
+.pub-type{display:block;font-size:11px;letter-spacing:.08em;color:#d5ac9d;margin-bottom:9px;text-transform:uppercase}
+.publication-note{color:#aeb9c8;font-size:13px;margin:26px 0 0}
+.publications-section{padding-top:48px;padding-bottom:64px}
+.about-preview p:not(.eyebrow){max-width:700px;color:var(--muted);font-size:17px}
+.research-details{padding-bottom:48px}
+.research-detail{display:grid;grid-template-columns:.85fr 1.15fr;gap:80px;padding:56px 0;border-top:1px solid var(--line)}
+.research-detail h2,.editorial-grid h2{font:500 clamp(30px,3vw,40px)/1.15 Georgia,serif;letter-spacing:-.025em;margin:0}
+.research-detail p:not(.eyebrow){margin:0;color:var(--muted);font-size:17px;max-width:650px}
+.research-detail .tags{padding:0;margin:24px 0 16px;list-style:none}
+.tags li{font-size:11px;border:1px solid var(--line);padding:5px 8px;color:#58697d}
+.closing-note{max-width:820px}
+.closing-note p{font-size:17px;color:var(--muted)}
+.pi-section{padding:56px 0}
+.pi-profile{display:grid;grid-template-columns:.75fr 1.25fr;gap:80px}
+.pi-profile h2{font:500 46px/1.1 Georgia,serif;letter-spacing:-.025em;margin:0 0 20px}
+.pi-profile p:not(.eyebrow){color:var(--muted)}
+.pi-summary{font-size:17px}
+.role-list{list-style:none;padding:0;margin:0 0 24px}
+.role-list li{margin-bottom:16px;font-size:15px}
+.role-list span{display:block;color:var(--muted);font-size:14px}
+.people-sections{padding-bottom:80px}
+.people-group{padding-top:64px}
+.group-heading{border-bottom:1px solid var(--line);margin-bottom:28px;padding-bottom:16px}
+.group-heading h2{font:500 34px/1.2 Georgia,serif;margin:0;letter-spacing:-.025em}
+.profile-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 24px}
+.profile{min-width:0;background:white;border:1px solid var(--line);display:flex;flex-direction:column}
+.profile-photo{aspect-ratio:4/3;overflow:hidden;background:var(--soft)}
+.profile-photo img{width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block}
+.profile-photo .photo-harshini-suresha{object-position:40% 40%}
+.profile-photo .photo-kaviya{object-position:center 25%}
+.profile-photo .photo-shravani{object-position:center 38%}
+.profile-photo .photo-jeel-dasondi{object-position:center 40%}
+.profile-copy{padding:24px;display:flex;flex-direction:column;flex:1}
+.profile h3{font:500 27px/1.15 Georgia,serif;margin:0 0 10px;letter-spacing:-.02em}
+.profile-role{font-size:12px;font-weight:700;color:var(--rust);margin:0 0 8px}
+.profile-affiliation{font-size:12px;line-height:1.6;color:var(--muted);margin:0 0 16px}
+.profile-bio{color:var(--muted);font-size:14px;line-height:1.75;margin:8px 0 20px}
+.profile-links{display:flex;flex-wrap:wrap;gap:4px 18px;margin:auto 0 0;padding:0;list-style:none}
+.profile-links a{font-size:12px;color:var(--blue);display:inline-flex;align-items:center;gap:4px;min-height:44px;text-decoration:underline;text-underline-offset:4px}
+.editorial-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:80px}
+.editorial-grid p{margin:0 0 22px;color:var(--muted);font-size:17px}
+.editorial-grid .eyebrow{font-size:11px;color:var(--rust)}
+.affiliation-list{list-style:none;padding:0;margin:0 0 40px}
+.affiliation-list li{margin-bottom:30px}
+.affiliation-list h3{font:500 25px/1.2 Georgia,serif;margin:0 0 12px}
+.site-footer{padding:32px 0}
+.site-footer a{display:inline-flex;align-items:center;min-height:44px;text-decoration:underline;text-underline-offset:4px}
+.site-footer a:focus-visible{outline-color:#d88b70}
+.footer-wrap{align-items:center;font-size:12px}
+.footer-disclaimer{margin:20px 0 0;padding-top:20px;border-top:1px solid #334155;max-width:100%;font-size:12px;line-height:1.7;color:#b4bfcd}
+@media(max-width:1000px){
+  .profile-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .theme-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .theme-card,.theme-card:nth-last-child(-n+2){grid-column:auto}
+  .theme-card:last-child{grid-column:1/-1}
+  .group-preview{gap:32px}
+  .research-detail,.pi-profile,.editorial-grid{gap:40px}
+}
+@media(max-width:900px){
+  .nav-wrap{flex-wrap:wrap;padding:12px 0}
+  .nav-ready .nav-wrap{flex-wrap:nowrap;padding:0}
+  .site-nav{position:static;display:flex;flex-direction:row;flex-wrap:wrap;width:100%;padding:0;border:0;gap:8px 24px;background:transparent;max-height:none}
+  .nav-ready .site-nav{position:absolute;top:100%;left:0;right:0;display:none;flex-direction:column;padding:12px 24px;background:var(--paper);border-bottom:1px solid var(--line);gap:4px;max-height:calc(100dvh - 90px);overflow-y:auto}
+  .nav-ready .site-nav.open{display:flex}
+  .group-preview{grid-template-columns:1fr}
+  .portrait-strip{max-width:600px}
+}
+@media(max-width:680px){
+  .page-intro{padding:48px 0 40px}
+  .page-intro h1{font-size:40px}
+  .page-lede{font-size:17px;margin-top:20px}
+  .section-links{gap:4px 16px;margin-top:24px}
+  .research-detail,.pi-profile,.editorial-grid{grid-template-columns:1fr;gap:24px}
+  .research-detail{padding:36px 0}
+  .research-detail p:not(.eyebrow),.editorial-grid p{font-size:16px}
+  .pi-section{padding:40px 0}
+  .pi-profile h2{font-size:38px}
+  .people-group{padding-top:44px}
+  .profile-grid{grid-template-columns:1fr;gap:24px}
+  .profile-photo{aspect-ratio:4/3}
+  .profile-copy{padding:24px}
+  .profile-bio{font-size:15px}
+  .theme-grid{grid-template-columns:1fr}
+  .theme-card{padding:24px}
+  .theme-card h3{margin-top:20px}
+  .theme-card:last-child{grid-column:auto}
+  .hero-context{font-size:13px}
+  .footer-wrap{align-items:flex-start;gap:4px}
+  .footer-disclaimer{margin-top:16px}
+}
+.profile-photo .photo-akarsh,.profile-photo .photo-madan-kumar,.profile-photo .photo-sanyukta-bholay,.profile-photo .photo-zidhan-subair{object-position:center top}
+.profile-photo .photo-madan-kumar{object-position:center 50%}
