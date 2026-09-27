@@ -19,7 +19,7 @@ Last updated: 27 September 2026.
 ## 2. Rules that must not be broken
 
 1. **Science first.** Describe questions, systems, methods and published findings. Do not describe business structure, revenue, services, profit/non-profit status or who paid for what.
-2. **KoshKey appears in exactly two places:** Tanay's People card ("KoshKey — Co-founder") and the About page affiliations list plus its one-line competing-interests statement. Nowhere else. Do not add sentences such as "includes R&D involving KoshKey".
+2. **KoshKey appears only in the People and About sections, linked to koshkey.com:** Tanay's People card ("KoshKey — Co-founder") and the About page affiliations list plus its one-line competing-interests statement. Nowhere else. Do not add sentences such as "includes R&D involving KoshKey".
 3. **Tanay's title for KoshKey is "Co-founder" only.** Not "Director", not "Co-founder and Director".
 4. **No client or sponsor information, ever.** No client or sponsor names, purchase-order numbers, product or active names, doses, formulations, results, figures or timelines from commissioned work. Before publishing any sentence about Theme 04 (or any sponsored work), apply this test: *would the sponsor recognise their project from this sentence?* If yes, generalise it further or delete it.
 5. **No unpublished results.** Only published papers and posted preprints may be described as findings. Manuscripts in preparation may be listed by topic only, and only with the owner's approval.
@@ -27,7 +27,7 @@ Last updated: 27 September 2026.
 7. **Institution names are written out in full on first mention on each page:**
    - National Centre for Biological Sciences (NCBS)
    - Centre for Cellular and Molecular Platforms (C-CAMP)
-   - Shiv Nadar Institution of Eminence (no abbreviation in visible text)
+   - Shiv Nadar Institution of Eminence (SNIoE, linked to Colin Jamora’s faculty page)
    - Indigenisation of Diagnostics (InDx) Program
 8. **Do not claim appointments.** Do not describe Tanay as "Principal Investigator" of any institutional project, or give any institutional job title, unless he supplies it in writing. Use "Group Lead" for his role in this group.
 9. **Keep the footer independence statement** on every page, unchanged: *"This website is independently maintained by Bhatt Research Lab. It is not an official website of any affiliated or collaborating institution and does not represent their views or positions."*
@@ -194,7 +194,7 @@ Do not implement these until the owner supplies the facts.
 | Bios | Decide whether every bio has a one-line personal note or none (currently 4 of 11 do) | People |
 | Photos | Consistent headshot crop for all; possibly a more neutral group-lead photo | `assets/people/` |
 | Amrutha Sharma | A profile link (LinkedIn/ORCID/GitHub) | People |
-| Colin Jamora Lab link | Replace `jamoralab.weebly.com` with the Shiv Nadar Institution of Eminence faculty page if one exists | People, About, Research, Home |
+| Colin Jamora Lab link | Lab name links to the lab website; SNIoE abbreviation links to Colin Jamora’s Shiv Nadar faculty page | People, About, Research, Home |
 | Tanay's profiles | ORCID and Google Scholar URLs; update ResearchGate (currently shows "Research Scholar, TIFR") | People card, footer |
 | 2025 preprint authorship | Confirm author position before any "first author" labelling | Publications |
 | Join page | How students join (via which institutions), what to send, and a contact method | New `join.html` + nav on every page |
