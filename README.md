@@ -22,6 +22,6 @@ The existing Cloudflare Pages project deploys `main`, with no build command and 
 
 ## Content conventions
 
-Use Bhatt Research Lab as the formal name. The group operates across collaborating institutions and includes academic collaborations and R&D involving Koshkey. Keep descriptions scientific, identify preprints, and omit unpublished results and detailed novel methods. Use the agreed independence statement as the final footer text on every page.
+**Before editing, read [`SITE_GUIDE.md`](SITE_GUIDE.md).** It holds the rules, voice, templates, verified publication list and the list of items still pending.
 
-No public email addresses or contact forms are included. Member roles and supplied institutional details should be updated when they change. The site does not imply that every member is affiliated with every collaborating institution.
+In short: use Bhatt Research Lab as the formal name; lead with the science; mention KoshKey only on Tanay's People card (Co-founder) and in the About affiliations and competing-interests statement; write institution names in full on first mention; write research text as flowing prose; never publish client, sponsor or unpublished details; never invent titles, dates or links. Keep the independence statement as the final footer text on every page.

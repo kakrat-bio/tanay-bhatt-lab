@@ -262,3 +262,8 @@ img{max-width:100%;height:auto}
 
 .institution-link{color:#254d70;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
 .institution-link:hover{color:var(--rust)}
+.brand-mark svg{display:block}
+.theme-papers{font-size:13px;color:var(--muted);margin-top:18px}
+.theme-papers a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+.research-detail p:not(.eyebrow)+p{margin-top:16px}
+.research-detail p.theme-papers{font-size:14px;margin-top:4px}
