@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+<defs><mask id="gap"><rect width="100" height="100" fill="#fff"/><path d="M34 80 C47 80 51 62 55 51 S63 22 76 22 H86" fill="none" stroke="#000" stroke-width="10" stroke-linecap="round"/><circle cx="34" cy="80" r="8" fill="#000"/><circle cx="39" cy="74" r="4" fill="#000"/></mask></defs>
+<g mask="url(#gap)" fill="#11243d">
+<rect x="7.5" y="7.5" width="85" height="85" fill="none" stroke="#11243d" stroke-width="3"/>
+<rect x="16" y="57.25" width="68" height="1.5"/>
+<rect x="16" y="64.5" width="68" height="3"/>
+<rect x="16" y="73" width="68" height="13"/>
+</g>
+<path d="M34 80 C47 80 51 62 55 51 S63 22 76 22 H86" fill="none" stroke="#11243d" stroke-width="5.5" stroke-linecap="round"/>
+<circle cx="34" cy="80" r="5.5" fill="#11243d"/>
+<circle cx="27" cy="30" r="6" fill="#995037"/>
+</svg>
