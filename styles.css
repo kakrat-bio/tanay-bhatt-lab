@@ -192,10 +192,7 @@ img{max-width:100%;height:auto}
 .profile{min-width:0;background:white;border:1px solid var(--line);display:flex;flex-direction:column}
 .profile-photo{aspect-ratio:4/3;overflow:hidden;background:var(--soft)}
 .profile-photo img{width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block}
-.profile-photo .photo-harshini-suresha{object-position:40% 40%}
 .profile-photo .photo-kaviya{object-position:center 25%}
-.profile-photo .photo-shravani{object-position:center 38%}
-.profile-photo .photo-jeel-dasondi{object-position:center 40%}
 .profile-copy{padding:24px;display:flex;flex-direction:column;flex:1}
 .profile h3{font:500 27px/1.15 Georgia,serif;margin:0 0 10px;letter-spacing:-.02em}
 .profile-role{font-size:12px;font-weight:700;color:var(--rust);margin:0 0 8px}
@@ -254,5 +251,8 @@ img{max-width:100%;height:auto}
   .footer-wrap{align-items:flex-start;gap:4px}
   .footer-disclaimer{margin-top:16px}
 }
-.profile-photo .photo-akarsh,.profile-photo .photo-madan-kumar,.profile-photo .photo-sanyukta-bholay,.profile-photo .photo-zidhan-subair{object-position:center top}
+.profile-photo .photo-akarsh,.profile-photo .photo-madan-kumar,.profile-photo .photo-sanyukta-bholay{object-position:center top}
 .profile-photo .photo-madan-kumar{object-position:center 50%}
+
+/* These sources are already cropped to centre the face in a 4:3 frame. */
+.profile-photo .photo-jeel-dasondi,.profile-photo .photo-harshini-suresha,.profile-photo .photo-shravani,.profile-photo .photo-amrutha-sharma,.profile-photo .photo-zidhan-subair{object-position:center}
