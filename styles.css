@@ -23,7 +23,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--rust);outline-offse
 .site-header{position:sticky;top:0;z-index:20;background:rgba(251,252,254,.9);backdrop-filter:blur(14px);border-bottom:1px solid rgba(219,226,234,.8)}
 .nav-wrap{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:28px}
 .brand{display:flex;align-items:center;gap:12px}
-.brand-mark{flex-shrink:0;width:36px;height:36px;display:grid;place-items:center;border:1px solid var(--ink);font-family:Georgia,serif;font-size:20px}
+.brand-mark{display:block;flex-shrink:0;width:36px;height:36px;object-fit:contain}
 .brand strong{display:block;font-size:14px;letter-spacing:.14em}
 .brand small{display:block;font-size:8px;letter-spacing:.18em;color:var(--muted);margin-top:2px}
 .site-nav{display:flex;gap:28px;font-size:13px;color:#40546c}
@@ -121,7 +121,7 @@ blockquote{font:500 clamp(28px,3.5vw,45px)/1.2 Georgia,serif;letter-spacing:-.02
   .brand{gap:10px}
   .brand strong{font-size:12px;letter-spacing:.1em}
   .brand small{letter-spacing:.1em}
-  .brand-mark{width:30px;height:34px}
+  .brand-mark{width:34px;height:34px}
   .research-grid{grid-template-columns:1fr}
   .research-card{padding:24px}
   .quote-grid{grid-template-columns:24px 1fr;gap:12px}
@@ -262,7 +262,6 @@ img{max-width:100%;height:auto}
 
 .institution-link{color:#254d70;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
 .institution-link:hover{color:var(--rust)}
-.brand-mark svg{display:block}
 .theme-papers{font-size:13px;color:var(--muted);margin-top:18px}
 .theme-papers a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
 .research-detail p:not(.eyebrow)+p{margin-top:16px}

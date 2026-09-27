@@ -63,13 +63,13 @@ Last updated: 27 September 2026.
 | `assets/people/*.webp` | Portraits (headshot crops preferred) |
 | `assets/skin-host-defense.webp` | Hero artwork |
 | `assets/og-image.jpg` | 1200×630 social preview image used by every page |
-| `assets/favicon.svg` | Three-wave mark (placeholder until the owner's logo is ready) |
+| `assets/favicon.ico` | Owner-provided symbol from page five of Bhatt Research Lab Logo.pdf |
 | `sitemap.xml`, `robots.txt` | Search indexing; update `lastmod` when pages change |
 | `SITE_GUIDE.md` | This file |
 
 Every page shares the same `<head>` pattern: title `"<Page> | Bhatt Research Lab"`, description, canonical URL at `https://tanaybhattlab.pages.dev/<page>` (extensionless), Open Graph tags including `og:image`, JSON-LD `WebSite`, favicon, stylesheet and deferred script. Keep that pattern on any new page and add the page to `sitemap.xml` and to the navigation on **all** pages.
 
-The header brand mark is an inline SVG of three wavy lines inside `.brand-mark`. The tagline under the name is **SKIN BIOLOGY · HOST DEFENSE · BIOLOGICAL STANDARDS**, and the home hero eyebrow uses the same text.
+The header brand mark is the owner-provided symbol in `assets/brand-symbol.png`. The tagline under the name is **SKIN BIOLOGY · HOST DEFENSE · BIOLOGICAL STANDARDS**, and the home hero eyebrow uses the same text.
 
 ### Templates
 
@@ -164,7 +164,7 @@ and the virtual-group paragraph ("Bhatt Research Lab is a virtual research group
 - Publications page now lists all six works (added 2018 Bio-protocol and 2013 review); home page shows four.
 - Home page title and Open Graph title unified to "Bhatt Research Lab"; one tagline across header and hero.
 - Added `og:image` (`assets/og-image.jpg`) and Twitter card tags to every page.
-- Replaced the "B" letter mark and favicon with a neutral three-wave mark (placeholder for the owner's logo).
+- Replaced the "B" letter mark with a neutral three-wave placeholder, then replaced that placeholder with the owner-provided logo.
 - "NCBS-TIFR" standardised to "NCBS".
 - Home "About the group" text rewritten without company wording.
 
@@ -200,7 +200,7 @@ Do not implement these until the owner supplies the facts.
 | Join page | How students join (via which institutions), what to send, and a contact method | New `join.html` + nav on every page |
 | Acknowledgements | Named funders and core facilities to acknowledge | About (new section) |
 | Contact email | Deferred by the owner. Note for later: `pages.dev` addresses cannot receive email; a custom domain is required | Footer / Join |
-| Logo | Owner is designing one; replace the three-wave placeholder in `.brand-mark` and `assets/favicon.svg` | All pages |
+| Logo | Owner-provided logo is installed in `assets/brand-symbol.png` and `assets/favicon.ico` | All pages |
 | Sponsored-work check | Owner to confirm agreements allow a general mention of mitochondrial and circadian research (Theme 04) | Research |
 | Manuscripts in preparation | Owner and co-authors to approve listing by topic only (dengue reference reagents; silver nanoparticles against DENV-2) | Publications |
 | News | Optional: dated items such as new members, preprints, talks, NCBS Open Day 2026 | New section on Home |
