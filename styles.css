@@ -45,8 +45,9 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--rust);outline-offse
 .affiliations{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:42px;font-size:11px;letter-spacing:.11em;color:#637187;text-transform:uppercase}
 .affiliations span{position:relative}
 .affiliations span:not(:last-child)::after{content:"";width:3px;height:3px;background:#bdc8d4;border-radius:50%;position:absolute;right:-11px;top:50%;transform:translateY(-50%)}
-.hero-panel{border:1px solid var(--line);border-radius:28px;padding:14px;background:#eef2f7;box-shadow:0 22px 60px rgba(19,43,72,.12)}
-.hero-panel svg{display:block;width:100%;height:auto;border-radius:18px}
+.hero-art{margin:0;min-width:0}
+.hero-art>img{display:block;width:100%;height:auto;border-radius:4px}
+.hero-art figcaption{margin-top:12px;color:var(--muted);font-size:12px;line-height:1.6;text-align:center}
 .section-light{background:var(--soft);border-top:1px solid #e9edf2;border-bottom:1px solid #e9edf2}
 .section-heading{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:end;margin-bottom:44px}
 .section-heading h2{font:500 clamp(34px,4vw,54px)/1.05 Georgia,serif;letter-spacing:-.03em;margin:0}
