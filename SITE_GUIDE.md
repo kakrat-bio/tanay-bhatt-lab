@@ -2,7 +2,7 @@
 
 **Read this whole file before changing anything in this repository.** It is the single source of truth for what the site says, how it says it, and what is still pending. It is written so that any person or AI assistant can pick up the work without prior context.
 
-Last updated: 27 September 2026.
+Last updated: 1 October 2026.
 
 ---
 
@@ -104,7 +104,7 @@ Anchors are fixed; the home page cards link to them.
 | # | Anchor | Title | Key papers |
 | --- | --- | --- | --- |
 | 01 | `#skin-repair` | Skin biology and tissue repair | PLOS Biology 2022; Bio-protocol 2018; Cell Communication & Adhesion 2013 |
-| 02 | `#host-defense` | Antimicrobial peptides and host defense | Cell Reports 2019; Frontiers in Immunology 2023; bioRxiv 2025 (preprint) |
+| 02 | `#host-defense` | Antimicrobial peptides and host defense | Cell Reports 2019; bioRxiv 2026 (preprint); Frontiers in Immunology 2023; bioRxiv 2025 (preprint) |
 | 03 | `#virology` | Virology and host–pathogen interactions | Frontiers in Immunology 2023; bioRxiv 2025 (preprint) |
 | 04 | `#cellular-health` | Cellular health and circadian skin biology | none yet |
 | 05 | `#reference-standards` | Biological reference materials and measurement | none yet (manuscript in preparation) |
@@ -115,6 +115,7 @@ Scientific facts the theme text relies on (verified against the papers):
 - **2019 Cell Reports:** S100A7 (psoriasin) secretion after bacterial exposure is biphasic; the sustained phase depends on caspase-8 downregulation, also seen in inflammatory skin disease.
 - **2023 Frontiers in Immunology:** LL37 (cathelicidin) disrupts the SARS-CoV-2 membrane; niacinamide enhances this; LL37 levels correlated inversely with COVID-19 severity.
 - **2025 bioRxiv (preprint):** 12-hydroxystearic acid induces keratinocytes to secrete antimicrobial peptides that inhibit viral infection.
+- **2026 bioRxiv (preprint):** flavonoid-capped silver nanoparticles derived from a Carica papaya fraction improved cell-culture antiviral selectivity over the unformulated fraction, acted before or during dengue virus adsorption, and reduced viral RNA across all four dengue serotypes.
 - **Dengue context:** more than 14 million cases were reported worldwide in 2024 (International Journal of Infectious Diseases, 2025: https://www.sciencedirect.com/science/article/pii/S120197122500164X).
 - **InDx work:** secondary reference reagents for DENV-1 to DENV-4, traceable to WHO reference reagents, with homogeneity and accelerated-stability studies and a four-laboratory collaborative study. Do not publish assigned values, Ct values or other data from the manuscript.
 
@@ -124,6 +125,7 @@ Theme 04 must stay at the level of questions, model systems and methods (primary
 
 | Year | Title | Journal | DOI | Type |
 | --- | --- | --- | --- | --- |
+| 2026 | Biogenic flavonoid capping converts a cytotoxic Carica papaya fraction into a selective, cross-serotype Dengue entry inhibitor | bioRxiv | 10.64898/2026.09.26.754612 | Preprint |
 | 2025 | 12-Hydroxystearic acid induces epidermal keratinocytes to secrete antimicrobial peptides that are potent inhibitors of viral infection | bioRxiv | 10.1101/2025.07.01.662536 | Preprint |
 | 2023 | Niacinamide enhances cathelicidin mediated SARS-CoV-2 membrane disruption | Frontiers in Immunology 14:1255478 | 10.3389/fimmu.2023.1255478 | Research article |
 | 2022 | Initiation of wound healing is regulated by the convergence of mechanical and epigenetic cues | PLOS Biology 20(9):e3001777 | 10.1371/journal.pbio.3001777 | Research article |
@@ -154,6 +156,10 @@ and the virtual-group paragraph ("Bhatt Research Lab is a virtual research group
 ---
 
 ## 6. Change log
+
+**1 October 2026**
+
+- Added the dengue-entry bioRxiv preprint to Publications, the four-paper Home preview, and Research Theme 03. Summarised cell-culture findings without clinical claims.
 
 **27 September 2026**
 
