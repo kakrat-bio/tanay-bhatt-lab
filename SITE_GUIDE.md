@@ -139,6 +139,8 @@ Theme 04 must stay at the level of questions, model systems and methods (primary
 
 ### 5.3 Tanay Bhatt — how to present him
 
+Profile links below his summary use the shared `.profile-links` list: LinkedIn `https://www.linkedin.com/in/tanay-bhatt/` and ORCID `https://orcid.org/0000-0001-9961-8051`. The public ORCID record identifies Tanay Bhatt and links to this LinkedIn profile (verified 8 October 2026).
+
 People card, right column (`.role-list`), exactly three items:
 
 1. **Indigenisation of Diagnostics (InDx) Program** — National Centre for Biological Sciences (NCBS) and Centre for Cellular and Molecular Platforms (C-CAMP)
@@ -160,6 +162,8 @@ and the virtual-group paragraph ("Bhatt Research Lab is a virtual research group
 ## 6. Change log
 
 **8 October 2026**
+
+- Added Tanay’s verified LinkedIn and ORCID links below his People profile summary, matching the other researchers’ profile links.
 
 - Added the owner-approved interactive Research Connections page, six connected fields, questions, tools and translational directions; distinguished proposed bridges and the KoshKey translational programme.
 - Added links below the Home research themes and Research introduction, navigation on all pages, and the new canonical URL to the sitemap.
@@ -209,7 +213,7 @@ Do not implement these until the owner supplies the facts.
 | Photos | Consistent headshot crop for all; possibly a more neutral group-lead photo | `assets/people/` |
 | Amrutha Sharma | A profile link (LinkedIn/ORCID/GitHub) | People |
 | Colin Jamora Lab link | Lab name links to the lab website; SNIoE abbreviation links to Colin Jamora’s Shiv Nadar faculty page | People, About, Research, Home |
-| Tanay's profiles | ORCID and Google Scholar URLs; update ResearchGate (currently shows "Research Scholar, TIFR") | People card, footer |
+| Tanay's profiles | ORCID and LinkedIn are installed. Google Scholar URL still needed; update ResearchGate (currently shows "Research Scholar, TIFR") | People card, footer |
 | 2025 preprint authorship | Confirm author position before any "first author" labelling | Publications |
 | Join page | How students join (via which institutions), what to send, and a contact method | New `join.html` + nav on every page |
 | Acknowledgements | Named funders and core facilities to acknowledge | About (new section) |
