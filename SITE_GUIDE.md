@@ -2,7 +2,7 @@
 
 **Read this whole file before changing anything in this repository.** It is the single source of truth for what the site says, how it says it, and what is still pending. It is written so that any person or AI assistant can pick up the work without prior context.
 
-Last updated: 1 October 2026.
+Last updated: 8 October 2026.
 
 ---
 
@@ -19,7 +19,7 @@ Last updated: 1 October 2026.
 ## 2. Rules that must not be broken
 
 1. **Science first.** Describe questions, systems, methods and published findings. Do not describe business structure, revenue, services, profit/non-profit status or who paid for what.
-2. **KoshKey appears only in the People and About sections, linked to koshkey.com:** Tanay's People card ("KoshKey — Co-founder") and the About page affiliations list plus its one-line competing-interests statement. Nowhere else. Do not add sentences such as "includes R&D involving KoshKey".
+2. **Owner-approved exception (8 October 2026):** The interactive `research-connections.html` page may show KoshKey as a clearly labelled translational programme, with its public science link and the About affiliations/disclosures link. It may use labelled question, tool and translational-direction lists. Other pages retain the following rule. **KoshKey appears only in the People and About sections, linked to koshkey.com:** Tanay's People card ("KoshKey — Co-founder") and the About page affiliations list plus its one-line competing-interests statement. Nowhere else. Do not add sentences such as "includes R&D involving KoshKey".
 3. **Tanay's title for KoshKey is "Co-founder" only.** Not "Director", not "Co-founder and Director".
 4. **No client or sponsor information, ever.** No client or sponsor names, purchase-order numbers, product or active names, doses, formulations, results, figures or timelines from commissioned work. Before publishing any sentence about Theme 04 (or any sponsored work), apply this test: *would the sponsor recognise their project from this sentence?* If yes, generalise it further or delete it.
 5. **No unpublished results.** Only published papers and posted preprints may be described as findings. Manuscripts in preparation may be listed by topic only, and only with the owner's approval.
@@ -55,6 +55,8 @@ Last updated: 1 October 2026.
 | --- | --- |
 | `index.html` | Home: hero, five theme cards, people preview, four recent publications, short "About the group" |
 | `research.html` | Five research themes in full prose, each with tags and a "Key papers" line |
+| `research-connections.html` | Owner-approved interactive map connecting research questions, methods and translational directions |
+| `research-connections.css`, `research-connections.js` | Styles and interactions for the research map |
 | `people.html` | Group lead card, then Project associates, Collaborating researchers, Dissertation students, Alumni |
 | `publications.html` | Complete publication list, newest first |
 | `about.html` | How the group works, affiliations, competing-interests statement |
@@ -156,6 +158,12 @@ and the virtual-group paragraph ("Bhatt Research Lab is a virtual research group
 ---
 
 ## 6. Change log
+
+**8 October 2026**
+
+- Added the owner-approved interactive Research Connections page, six connected fields, questions, tools and translational directions; distinguished proposed bridges and the KoshKey translational programme.
+- Added links below the Home research themes and Research introduction, navigation on all pages, and the new canonical URL to the sitemap.
+- Added LSDV to the reference-reagent description, as confirmed by the owner; retained DENV-specific WHO traceability.
 
 **1 October 2026**
 
