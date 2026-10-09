@@ -9,7 +9,7 @@
 #tb-ecosystem [data-slot="3"] {grid-column:3;grid-row:1}
 #tb-ecosystem [data-slot="4"] {grid-column:3;grid-row:2}
 #tb-ecosystem [data-slot="5"] {grid-column:3;grid-row:3}
-#tb-ecosystem .tb-hub {grid-column:2;grid-row:1 / 4;align-self:center;text-align:center;position:relative;background:var(--paper);padding:12px 0}
+#tb-ecosystem .tb-hub {grid-column:2;grid-row:1 / 4;align-self:center;text-align:center;position:relative;background:color-mix(in srgb,var(--paper) 35%,transparent);padding:12px 0}
 #tb-ecosystem .tb-hub h3 {margin:8px 0}
 #tb-ecosystem .tb-legend {display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap}
 #tb-ecosystem .tb-key {display:inline-block;width:22px;height:0;border-top:2px solid var(--blue)}

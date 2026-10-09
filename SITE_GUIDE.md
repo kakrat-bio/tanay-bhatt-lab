@@ -2,7 +2,7 @@
 
 **Read this whole file before changing anything in this repository.** It is the single source of truth for what the site says, how it says it, and what is still pending. It is written so that any person or AI assistant can pick up the work without prior context.
 
-Last updated: 8 October 2026.
+Last updated: 9 October 2026.
 
 ---
 
@@ -160,6 +160,10 @@ and the virtual-group paragraph ("Bhatt Research Lab is a virtual research group
 ---
 
 ## 6. Change log
+
+**9 October 2026**
+
+- Made the Research Connections central focus background translucent so connecting lines remain visible; kept text fully opaque.
 
 **8 October 2026**
 
