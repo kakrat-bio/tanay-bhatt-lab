@@ -221,7 +221,7 @@ Do not implement these until the owner supplies the facts.
 | 2025 preprint authorship | Confirm author position before any "first author" labelling | Publications |
 | Join page | How students join (via which institutions), what to send, and a contact method | New `join.html` + nav on every page |
 | Acknowledgements | Named funders and core facilities to acknowledge | About (new section) |
-| Contact email | Deferred by the owner. Note for later: `pages.dev` addresses cannot receive email; a custom domain is required | Footer / Join |
+| Contact email | tanaynbhatt@gmail.com is installed in the footer of every page and on Tanay's People card. Replace if a dedicated lab address is set up later | Footer / People |
 | Logo | Owner-provided SVG logo is installed in `assets/logo-mark.svg` for the header and browser icon | All pages |
 | Sponsored-work check | Owner to confirm agreements allow a general mention of mitochondrial and circadian research (Theme 04) | Research |
 | Manuscripts in preparation | Owner and co-authors to approve listing by topic only (dengue reference reagents; silver nanoparticles against DENV-2) | Publications |
