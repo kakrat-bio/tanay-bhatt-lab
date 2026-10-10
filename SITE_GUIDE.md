@@ -2,7 +2,7 @@
 
 **Read this whole file before changing anything in this repository.** It is the single source of truth for what the site says, how it says it, and what is still pending. It is written so that any person or AI assistant can pick up the work without prior context.
 
-Last updated: 9 October 2026.
+Last updated: 10 October 2026.
 
 ---
 
@@ -46,6 +46,8 @@ Last updated: 9 October 2026.
 - Company name spelling: **KoshKey**.
 - Reference materials terminology: use **"reference reagents"** or **"reference materials"**, not "Reference Standard Project".
 - No emoji, no exclamation marks, no marketing adjectives ("cutting-edge", "world-class").
+- **Link arrows:** use **↗** only on links that leave the site (any `href` starting with `https://`: LinkedIn, ORCID, GitHub, DOI, bioRxiv, institution pages). Use **→** on links within the site (`*.html` pages, `#section` anchors, and in-page jumps on the research map). "Back to top ↑" keeps its upward arrow. Inline institution links in prose carry no arrow.
+- **Contact email:** always written as `tanaynbhatt (at) gmail (dot) com` in plain text, never as a `mailto:` link or in the `name@domain` form, to reduce harvesting by spam bots.
 
 ---
 
@@ -221,7 +223,7 @@ Do not implement these until the owner supplies the facts.
 | 2025 preprint authorship | Confirm author position before any "first author" labelling | Publications |
 | Join page | How students join (via which institutions), what to send, and a contact method | New `join.html` + nav on every page |
 | Acknowledgements | Named funders and core facilities to acknowledge | About (new section) |
-| Contact email | tanaynbhatt@gmail.com is installed in the footer of every page and on Tanay's People card. Replace if a dedicated lab address is set up later | Footer / People |
+| Contact email | Installed as `tanaynbhatt (at) gmail (dot) com` (plain text, no `mailto:`) in the footer of every page and on Tanay's People card. Replace if a dedicated lab address is set up later | Footer / People |
 | Logo | Owner-provided SVG logo is installed in `assets/logo-mark.svg` for the header and browser icon | All pages |
 | Sponsored-work check | Owner to confirm agreements allow a general mention of mitochondrial and circadian research (Theme 04) | Research |
 | Manuscripts in preparation | Owner and co-authors to approve listing by topic only (dengue reference reagents; silver nanoparticles against DENV-2) | Publications |
