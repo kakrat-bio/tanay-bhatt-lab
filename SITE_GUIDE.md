@@ -219,7 +219,7 @@ Do not implement these until the owner supplies the facts.
 | Start year for every member; start–end for alumni | Years for everyone (Jeel Dasondi already has May–July 2026; Asmi Ashish Mehta has none) | `.profile-role`, e.g. "Project Associate · Since 2025" |
 | Clarify roles | Sarang is listed as "Project Associate" and "M.Sc. Molecular Medicine student"; Harshini as "Collaborating Project Associate". Confirm the correct role in the group vs the degree being studied | People |
 | Bios | Decide whether every bio has a one-line personal note or none (currently 4 of 11 do) | People |
-| Photos | Consistent headshot crop for all; possibly a more neutral group-lead photo | `assets/people/` |
+| Photos | Consistent headshot crop for all. Group-lead photo replaced with a neutral headshot (10 Oct 2026) | `assets/people/` |
 | Amrutha Sharma | A profile link (LinkedIn/ORCID/GitHub) | People |
 | Colin Jamora Lab link | Lab name links to the lab website; SNIoE abbreviation links to Colin Jamora’s Shiv Nadar faculty page | People, About, Research, Home |
 | Tanay's profiles | ORCID and LinkedIn are installed. Google Scholar URL still needed; update ResearchGate (currently shows "Research Scholar, TIFR") | People card, footer |
