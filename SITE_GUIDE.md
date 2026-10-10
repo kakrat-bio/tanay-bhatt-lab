@@ -43,6 +43,9 @@ Last updated: 10 October 2026.
 - Use "we" for the group. Use "Tanay Bhatt" (third person) on About and People.
 - Name papers by journal and year in running text (e.g. "PLOS Biology, 2022") only when needed; link DOIs in the "Key papers" line under each theme instead.
 - Preprints are always labelled "(preprint)" or "Preprint".
+- Paper titles are copied exactly as published (capitalisation included), with species names in italics (e.g. *Carica papaya*).
+- Hyphenated names that must not split across lines (C-CAMP, SARS-CoV-2) are wrapped in `<span class="nowrap">` in visible text.
+- Spell "host defence" in British form everywhere, including titles and the header tagline; keep `host-defense` in existing ids and file names so links do not break.
 - Company name spelling: **KoshKey**.
 - Reference materials terminology: use **"reference reagents"** or **"reference materials"**, not "Reference Standard Project".
 - No emoji, no exclamation marks, no marketing adjectives ("cutting-edge", "world-class").
@@ -55,7 +58,7 @@ Last updated: 10 October 2026.
 
 | File | Purpose |
 | --- | --- |
-| `index.html` | Home: hero, five theme cards, people preview, four recent publications, short "About the group" |
+| `index.html` | Home: hero, five theme cards, people preview, five selected publications (newest first, including Cell Reports 2019), short "About the group" |
 | `research.html` | Five research themes in full prose, each with tags and a "Key papers" line |
 | `research-connections.html` | Owner-approved interactive map connecting research questions, methods and translational directions |
 | `research-connections.css`, `research-connections.js` | Styles and interactions for the research map |

@@ -268,3 +268,4 @@ img{max-width:100%;height:auto}
 .theme-papers a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
 .research-detail p:not(.eyebrow)+p{margin-top:16px}
 .research-detail p.theme-papers{font-size:14px;margin-top:4px}
+.nowrap{white-space:nowrap}
