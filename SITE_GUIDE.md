@@ -2,7 +2,7 @@
 
 **Read this whole file before changing anything in this repository.** It is the single source of truth for what the site says, how it says it, and what is still pending. It is written so that any person or AI assistant can pick up the work without prior context.
 
-Last updated: 10 October 2026.
+Last updated: 22 October 2026.
 
 ---
 
@@ -49,7 +49,8 @@ Last updated: 10 October 2026.
 - Company name spelling: **KoshKey**.
 - Reference materials terminology: use **"reference reagents"** or **"reference materials"**, not "Reference Standard Project".
 - No emoji, no exclamation marks, no marketing adjectives ("cutting-edge", "world-class").
-- **Link arrows:** use **↗** only on links that leave the site (any `href` starting with `https://`: LinkedIn, ORCID, GitHub, DOI, bioRxiv, institution pages). Use **→** on links within the site (`*.html` pages, `#section` anchors, and in-page jumps on the research map). "Back to top ↑" keeps its upward arrow. Inline institution links in prose carry no arrow.
+- **Link arrows:** use **↗** only on links that leave the site (any `href` starting with `https://`: LinkedIn, ORCID, GitHub, DOI, bioRxiv, institution pages). Use **→** on links within the site (site pages, `#section` anchors, and in-page jumps on the research map). "Back to top ↑" keeps its upward arrow. Inline institution links in prose carry no arrow.
+- **Internal links use clean root-relative URLs** (`/`, `/people`, `/research#virology`), never `people.html` or `index.html`. Cloudflare Pages redirects `.html` addresses to the clean ones, and Google Search Console reports linked redirects as "Page with redirect". The sitemap and canonical tags use the same clean URLs.
 - **Contact email:** always written as `tanaynbhatt (at) gmail (dot) com` in plain text, never as a `mailto:` link or in the `name@domain` form, to reduce harvesting by spam bots.
 
 ---
