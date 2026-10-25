@@ -2,7 +2,7 @@
 
 **Read this whole file before changing anything in this repository.** It is the single source of truth for what the site says, how it says it, and what is still pending. It is written so that any person or AI assistant can pick up the work without prior context.
 
-Last updated: 22 October 2026.
+Last updated: 25 October 2026.
 
 ---
 
@@ -167,6 +167,10 @@ and the virtual-group paragraph ("Bhatt Research Lab is a virtual research group
 
 ## 6. Change log
 
+**25 October 2026**
+
+- Moved Sarang Gajare from Project associates to Alumni, with former group role and current Ulm University, Germany affiliation as supplied by the owner.
+
 **9 October 2026**
 
 - Made the Research Connections central focus background translucent so connecting lines remain visible; kept text fully opaque.
@@ -216,9 +220,9 @@ Do not implement these until the owner supplies the facts.
 
 | Item | What is needed | Where it goes |
 | --- | --- | --- |
-| Host institution for every member | For Sarang Gajare, Akarsh B, Sanyukta Bholay, Zidhan Subair (and confirm the others): the institution each person is registered or hosted at | `.profile-affiliation` on People |
+| Host institution for every member | For Akarsh B, Sanyukta Bholay, Zidhan Subair (and confirm the others): the institution each person is registered or hosted at | `.profile-affiliation` on People |
 | Start year for every member; start–end for alumni | Years for everyone (Jeel Dasondi already has May–July 2026; Asmi Ashish Mehta has none) | `.profile-role`, e.g. "Project Associate · Since 2025" |
-| Clarify roles | Sarang is listed as "Project Associate" and "M.Sc. Molecular Medicine student"; Harshini as "Collaborating Project Associate". Confirm the correct role in the group vs the degree being studied | People |
+| Clarify roles | Harshini is listed as "Collaborating Project Associate". Confirm the correct role in the group vs the degree being studied | People |
 | Bios | Decide whether every bio has a one-line personal note or none (currently 4 of 11 do) | People |
 | Photos | Consistent headshot crop for all. Group-lead photo replaced with a neutral headshot (10 Oct 2026) | `assets/people/` |
 | Amrutha Sharma | A profile link (LinkedIn/ORCID/GitHub) | People |
