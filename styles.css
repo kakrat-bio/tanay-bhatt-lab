@@ -184,7 +184,7 @@ img{max-width:100%;height:auto}
 .pi-summary{font-size:17px}
 .role-list{list-style:none;padding:0;margin:0 0 24px}
 .role-list li{margin-bottom:16px;font-size:15px}
-.role-list span{display:block;color:var(--muted);font-size:14px}
+.role-list li > span{display:block;color:var(--muted);font-size:14px}
 .people-sections{padding-bottom:80px}
 .people-group{padding-top:64px}
 .group-heading{border-bottom:1px solid var(--line);margin-bottom:28px;padding-bottom:16px}
