@@ -2,7 +2,7 @@
 
 **Read this whole file before changing anything in this repository.** It is the single source of truth for what the site says, how it says it, and what is still pending. It is written so that any person or AI assistant can pick up the work without prior context.
 
-Last updated: 25 October 2026.
+Last updated: 26 October 2026.
 
 ---
 
@@ -166,6 +166,10 @@ and the virtual-group paragraph ("Bhatt Research Lab is a virtual research group
 ---
 
 ## 6. Change log
+
+**26 October 2026**
+
+- Added Prapti Nanda to Alumni, noting her contribution to dengue reference reagents, current affiliation at CrisprBits and research interests. Portrait to be stored at `assets/people/prapti-nanda.webp`.
 
 **25 October 2026**
 
