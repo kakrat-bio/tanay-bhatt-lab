@@ -169,7 +169,7 @@ and the virtual-group paragraph ("Bhatt Research Lab is a virtual research group
 
 **26 October 2026**
 
-- Added Prapti Nanda to Alumni, noting her contribution to dengue reference reagents, current affiliation at CrisprBits and research interests. Portrait to be stored at `assets/people/prapti-nanda.webp`.
+- Added Prapti Nanda to Alumni as Former Project Associate, with a concise bio matching other alumni, current affiliation at CrisprBits, and portrait at `assets/people/prapti-nanda.webp`.
 
 **25 October 2026**
 
