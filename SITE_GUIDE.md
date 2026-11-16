@@ -2,7 +2,7 @@
 
 **Read this whole file before changing anything in this repository.** It is the single source of truth for what the site says, how it says it, and what is still pending. It is written so that any person or AI assistant can pick up the work without prior context.
 
-Last updated: 26 October 2026.
+Last updated: 16 November 2026.
 
 ---
 
@@ -11,7 +11,7 @@ Last updated: 26 October 2026.
 - **Name:** Bhatt Research Lab (always this form; never "Tanay Bhatt Lab" in visible text or titles).
 - **What it is:** the academic website of a small, virtual research group led by Tanay Bhatt. Members work at, and are registered through, different host institutions.
 - **Why it exists:** to present the group's science and to give students and researchers public credit for their work under their own host institutions. Their work is otherwise not visible on any company site.
-- **Live URL:** https://tanaybhattlab.pages.dev/ — hosted on Cloudflare Pages, which deploys automatically from the `main` branch. There is no build step; the repository root is the site root. Do not reintroduce the old URL `bhattlab.pages.dev`.
+- **Live URL:** https://bhattresearch.org/ (primary domain; canonical, Open Graph, JSON-LD, sitemap and robots.txt all use it). The Cloudflare Pages address https://tanaybhattlab.pages.dev/ serves the same build. Hosted on Cloudflare Pages, which deploys automatically from the `main` branch. There is no build step; the repository root is the site root. Do not reintroduce the old URL `bhattlab.pages.dev`.
 - **Owner:** Tanay Bhatt (goes by Yana).
 
 ---
@@ -75,7 +75,7 @@ Last updated: 26 October 2026.
 | `sitemap.xml`, `robots.txt` | Search indexing; update `lastmod` when pages change |
 | `SITE_GUIDE.md` | This file |
 
-Every page shares the same `<head>` pattern: title `"<Page> | Bhatt Research Lab"`, description, canonical URL at `https://tanaybhattlab.pages.dev/<page>` (extensionless), Open Graph tags including `og:image`, JSON-LD `WebSite`, favicon, stylesheet and deferred script. Keep that pattern on any new page and add the page to `sitemap.xml` and to the navigation on **all** pages.
+Every page shares the same `<head>` pattern: title `"<Page> | Bhatt Research Lab"`, description, canonical URL at `https://bhattresearch.org/<page>` (extensionless), Open Graph tags including `og:image`, JSON-LD `WebSite`, favicon, stylesheet and deferred script. Keep that pattern on any new page and add the page to `sitemap.xml` and to the navigation on **all** pages.
 
 The header brand mark and browser icon use the owner-provided vector in `assets/logo-mark.svg`. The tagline under the name is **SKIN BIOLOGY · HOST DEFENSE · BIOLOGICAL STANDARDS**, and the home hero eyebrow uses the same text.
 
@@ -167,6 +167,10 @@ and the virtual-group paragraph ("Bhatt Research Lab is a virtual research group
 
 ## 6. Change log
 
+**16 November 2026**
+
+- Switched canonical URLs, Open Graph URLs and images, JSON-LD, `sitemap.xml` and `robots.txt` from `tanaybhattlab.pages.dev` to the primary domain `https://bhattresearch.org`.
+
 **26 October 2026**
 
 - Added Prapti Nanda to Alumni as Former Project Associate, with a concise bio matching other alumni, current affiliation at CrisprBits, and portrait at `assets/people/prapti-nanda.webp`.
@@ -212,7 +216,7 @@ and the virtual-group paragraph ("Bhatt Research Lab is a virtual research group
 2. Edit HTML by hand or with a script; keep one-line `<main>` structure intact.
 3. Preview locally: `python3 -m http.server 8000` and open `http://localhost:8000`.
 4. Check at desktop width and at 390 px (phone). No horizontal scroll.
-5. Search the whole site for forbidden text before committing: `Koshkey` (wrong spelling), `Director`, `Principal Investigator`, `Reference Standard Project`, `R&D involving`, `//bhattlab.pages.dev` (the old URL; note `tanaybhattlab.pages.dev` is correct), `TBD`. ("Tanay Bhatt Lab" may appear only in the JSON-LD `alternateName` in `index.html`.)
+5. Search the whole site for forbidden text before committing: `Koshkey` (wrong spelling), `Director`, `Principal Investigator`, `Reference Standard Project`, `R&D involving`, `pages.dev` in canonical, Open Graph, JSON-LD, sitemap or robots.txt (all must use `https://bhattresearch.org`), `TBD`. ("Tanay Bhatt Lab" may appear only in the JSON-LD `alternateName` in `index.html`.)
 6. Update `sitemap.xml` `lastmod` for changed pages and add a line to the change log above.
 7. Commit to `main` with a descriptive message; Cloudflare Pages redeploys in about a minute. If it does not, open the Cloudflare dashboard → Workers & Pages → the project → Deployments, and retry the latest deployment.
 
