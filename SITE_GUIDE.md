@@ -2,7 +2,7 @@
 
 **Read this whole file before changing anything in this repository.** It is the single source of truth for what the site says, how it says it, and what is still pending. It is written so that any person or AI assistant can pick up the work without prior context.
 
-Last updated: 16 November 2026.
+Last updated: 18 November 2026.
 
 ---
 
@@ -11,7 +11,7 @@ Last updated: 16 November 2026.
 - **Name:** Bhatt Research Lab (always this form; never "Tanay Bhatt Lab" in visible text or titles).
 - **What it is:** the academic website of a small, virtual research group led by Tanay Bhatt. Members work at, and are registered through, different host institutions.
 - **Why it exists:** to present the group's science and to give students and researchers public credit for their work under their own host institutions. Their work is otherwise not visible on any company site.
-- **Live URL:** https://bhattresearch.org/ (primary domain; canonical, Open Graph, JSON-LD, sitemap and robots.txt all use it). The Cloudflare Pages address https://tanaybhattlab.pages.dev/ serves the same build. Hosted on Cloudflare Pages, which deploys automatically from the `main` branch. There is no build step; the repository root is the site root. Do not reintroduce the old URL `bhattlab.pages.dev`.
+- **Live URL:** https://bhattresearch.org/ (primary domain; canonical, Open Graph, JSON-LD, sitemap and robots.txt all use it). `functions/_middleware.js` permanently (301) redirects https://tanaybhattlab.pages.dev/ and https://www.bhattresearch.org/ to the same path on https://bhattresearch.org; preview deployments are not redirected. Hosted on Cloudflare Pages, which deploys automatically from the `main` branch. There is no build step; the repository root is the site root. Do not reintroduce the old URL `bhattlab.pages.dev`.
 - **Owner:** Tanay Bhatt (goes by Yana).
 
 ---
@@ -51,7 +51,7 @@ Last updated: 16 November 2026.
 - No emoji, no exclamation marks, no marketing adjectives ("cutting-edge", "world-class").
 - **Link arrows:** use **↗** only on links that leave the site (any `href` starting with `https://`: LinkedIn, ORCID, GitHub, DOI, bioRxiv, institution pages). Use **→** on links within the site (site pages, `#section` anchors, and in-page jumps on the research map). "Back to top ↑" keeps its upward arrow. Inline institution links in prose carry no arrow.
 - **Internal links use clean root-relative URLs** (`/`, `/people`, `/research#virology`), never `people.html` or `index.html`. Cloudflare Pages redirects `.html` addresses to the clean ones, and Google Search Console reports linked redirects as "Page with redirect". The sitemap and canonical tags use the same clean URLs.
-- **Contact email:** always written as `tanaynbhatt (at) gmail (dot) com` in plain text, never as a `mailto:` link or in the `name@domain` form, to reduce harvesting by spam bots.
+- **Contact email:** always written in plain text as `tanaynbhatt (at) gmail (dot) com` (footer, People card) or `tanay (at) bhattresearch (dot) org` (People card), never as a `mailto:` link or in the `name@domain` form, to reduce harvesting by spam bots.
 
 ---
 
@@ -68,6 +68,7 @@ Last updated: 16 November 2026.
 | `about.html` | How the group works, affiliations, competing-interests statement |
 | `styles.css` | All styling (single file) |
 | `script.js` | Mobile menu and footer year only |
+| `functions/_middleware.js` | Cloudflare Pages Function: 301 redirect from `tanaybhattlab.pages.dev` and `www` to `bhattresearch.org` |
 | `assets/people/*.webp` | Portraits (headshot crops preferred) |
 | `assets/skin-host-defense.webp` | Hero artwork |
 | `assets/og-image.jpg` | 1200×630 social preview image used by every page |
@@ -166,6 +167,11 @@ and the virtual-group paragraph ("Bhatt Research Lab is a virtual research group
 ---
 
 ## 6. Change log
+
+**18 November 2026**
+
+- Added `tanay (at) bhattresearch (dot) org` to Tanay's People card, below the Gmail address.
+- Added `functions/_middleware.js` so the old pages.dev address and www redirect (301) to https://bhattresearch.org, letting Google move its index to the new domain.
 
 **16 November 2026**
 
