@@ -51,7 +51,7 @@ Last updated: 18 November 2026.
 - No emoji, no exclamation marks, no marketing adjectives ("cutting-edge", "world-class").
 - **Link arrows:** use **↗** only on links that leave the site (any `href` starting with `https://`: LinkedIn, ORCID, GitHub, DOI, bioRxiv, institution pages). Use **→** on links within the site (site pages, `#section` anchors, and in-page jumps on the research map). "Back to top ↑" keeps its upward arrow. Inline institution links in prose carry no arrow.
 - **Internal links use clean root-relative URLs** (`/`, `/people`, `/research#virology`), never `people.html` or `index.html`. Cloudflare Pages redirects `.html` addresses to the clean ones, and Google Search Console reports linked redirects as "Page with redirect". The sitemap and canonical tags use the same clean URLs.
-- **Contact email:** always written in plain text as `tanaynbhatt (at) gmail (dot) com` (footer, People card) or `tanay (at) bhattresearch (dot) org` and `tanaynb (at) ncbs (dot) res (dot) in` (People card), never as a `mailto:` link or in the `name@domain` form, to reduce harvesting by spam bots.
+- **Contact email:** always written in plain text as `tanay (at) bhattresearch (dot) org` (footer and People card) and `tanaynb (at) ncbs (dot) res (dot) in` (People card only). The Gmail address is no longer published, never as a `mailto:` link or in the `name@domain` form, to reduce harvesting by spam bots.
 
 ---
 
@@ -170,6 +170,7 @@ and the virtual-group paragraph ("Bhatt Research Lab is a virtual research group
 
 **18 November 2026**
 
+- Removed the Gmail address from the site; footers now show `tanay (at) bhattresearch (dot) org`.
 - Added `tanaynb (at) ncbs (dot) res (dot) in` to Tanay's People card, below the bhattresearch.org address.
 - Added `tanay (at) bhattresearch (dot) org` to Tanay's People card, below the Gmail address.
 - Added `functions/_middleware.js` so the old pages.dev address and www redirect (301) to https://bhattresearch.org, letting Google move its index to the new domain.
@@ -246,7 +247,7 @@ Do not implement these until the owner supplies the facts.
 | 2025 preprint authorship | Confirm author position before any "first author" labelling | Publications |
 | Join page | How students join (via which institutions), what to send, and a contact method | New `join.html` + nav on every page |
 | Acknowledgements | Named funders and core facilities to acknowledge | About (new section) |
-| Contact email | Installed as `tanaynbhatt (at) gmail (dot) com` (plain text, no `mailto:`) in the footer of every page and on Tanay's People card. Replace if a dedicated lab address is set up later | Footer / People |
+| Contact email | Done: `tanay (at) bhattresearch (dot) org` (forwards via Cloudflare Email Routing) in every footer and on Tanay's People card, plus the NCBS address on the card | Footer / People |
 | Logo | Owner-provided SVG logo is installed in `assets/logo-mark.svg` for the header and browser icon | All pages |
 | Sponsored-work check | Owner to confirm agreements allow a general mention of mitochondrial and circadian research (Theme 04) | Research |
 | Manuscripts in preparation | Owner and co-authors to approve listing by topic only (dengue reference reagents; silver nanoparticles against DENV-2) | Publications |
